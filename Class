@@ -1,0 +1,13 @@
+<?php
+   interface lampusein{
+     public function geser_kanan();
+     public function geser_kiri();
+   }
+   class motor implements lampusein{
+     //...isi dari class motor
+   }
+   class mobil implements lampusein{
+     //...isi dari class mobil
+   }
+   
+ ?>
